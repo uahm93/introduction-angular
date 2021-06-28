@@ -1,3 +1,4 @@
+import { HolaModule } from './../../projects/hola/src/lib/hola.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -8,7 +9,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, 
+    HolaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
